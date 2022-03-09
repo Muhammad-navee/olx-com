@@ -1,0 +1,138 @@
+*{
+    padding: 2px;
+    margin: 0;
+
+}
+.mysearchbar ul{
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+.mysearchbar ul li{
+    list-style-type: none;
+    
+    
+}
+.mybanner{
+    margin-top: 10px;
+}
+
+
+.myban{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.mybtn{
+    display: inline-block;
+    /* border: 1px solid black; */
+    width: 30px;
+    
+}
+.mynavitm a{
+    list-style-type: none !important;
+    display: inline-block !important;
+
+    
+}
+
+.mynavitm2 a{
+    list-style-type: none !important;
+    display: inline-block !important;
+
+}
+.dropbox{
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+.dropbox:hover{
+    
+    color:royalblue;
+}
+.srch{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.srch:hover{
+    color:royalblue;
+}
+.login-btn{
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 60px; 
+    
+}
+.background-btn{
+    background-image:url(./img/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 40px;
+}
+.background-btn a{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center;
+    /* margin-bottom: 120px;   */
+}
+.btn:hover{
+    color: rgb(248, 248, 89);
+}
+
+.card:hover{
+    background-color: rgb(218, 208, 208);
+    color: white;
+}
+.btnlearn{
+    display: flex;
+    justify-content: center;
+}
+.btnlearn button{
+    padding:10px !important ;
+    
+}
+.mybotom{
+    display: flex;
+}
+.mybanner1{
+    width: 50%;
+}
+.mybanner1 img{
+    width: 100%;
+}
+.bannerlinks div{
+    padding-top: 40px;
+}
+li{
+    list-style-type: none  ;
+}
+.footer{
+    overflow-wrap: break-word;
+    /* padding-top: 0!important; */
+    /* border: 1px solid darkgrey !important; */
+    display: flex;
+    justify-content: space-around;
+}
+.footer .footerlink1 img{
+    width: 30px;
+    height: 30px;
+}
+.footer .footerlink2{
+    padding-top: 30px;
+}
+.footer .footerlink2 img{
+    
+    width: 84px;
+    height: 28px;
+}
+.footer a{
+    text-decoration: none;
+    color: darkgray;
+}
